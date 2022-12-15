@@ -3,18 +3,18 @@ Bonjour
 
 Faire un copier coller du fichier ".bat"  dans un dossier qui contient des images.
 une fois que c'est fait, un double clic sur le ".bat" pour executer le script.
-attendre et regarder le fichier ".log" généré s'il manque des images.
+attendre et regarder le fichier ".log" gÃ©nÃ©rÃ© s'il manque des images.
 
-tu peux effacer le .bat et le .log du répertoires avec les images apres usage: 
+tu peux effacer le .bat et le .log du rÃ©pertoires avec les images apres usage: 
 c'est un lanceur qui lance le "vrai" script depuis le bon chemin (C:\Program Files (x86)\PHP\scripts\PhotoManager)
 par example.
 
-Enfin "reduire_images.bat" réduit la taille des images à 1280 pixel pour le plus grand côté maximum
+Enfin "reduire_images.bat" rÃ©duit la taille des images Ã  1280 pixel pour le plus grand cÃ´tÃ© maximum
 mais ne fait rien pour les images plus petites.
-Tu peux changer ça dans les scripts PHP (reduire_images.php) et modidier les valeurs à ta guise au début du fichier:
+Tu peux changer Ã§a dans les scripts PHP (reduire_images.php) et modifier les valeurs Ã  ta guise au dÃ©but du fichier:
 
-par défaut
- $width=1280;//unité en pixel
+par dÃ©faut
+ $width=1280;//unitÃ© en pixel
  $height=0; // calcul automatique.
 
 oubien plus petit
@@ -23,13 +23,13 @@ oubien plus petit
 
 oubien encore plus petit
  $width=0; 
- $height=600; //unité en pixel
+ $height=600; //unitÃ© en pixel
 
 oubien une toute petite vignette
  $width=100; 
- $height=0; //unité en pixel
+ $height=0; //unitÃ© en pixel
  
-si les deux côtes ne sont pas à zeros, tu vas problement déformer les images
+si l'un des deux cÃ´tes ne sont pas Ã  zeros, tu vas problement dÃ©former les images
  $width=100; 
  $height=100; 
  
