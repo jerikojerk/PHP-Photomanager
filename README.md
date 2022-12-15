@@ -1,7 +1,8 @@
 # PHP-Photomanager
 
 
-##reduire_images 
+## reduire_images
+
 This project is a script to allow someone to resize multiple images at once. it is based on PHP's GD.
 It will saves you from going into Gimp and loading the picture, resize, export .... 
 
